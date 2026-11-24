@@ -1,5 +1,5 @@
 // Edit this file to change the content of the site.
-import Pan1 from './components/image/pan1.jpeg';
+// import Pan1 from './components/image/pan1.jpeg';
 import Pan2 from "./components/image/pan2.jpeg";
 import Pan3 from "./components/image/pan3.jpeg";
 import Pan4 from "./components/image/pan4.jpeg";

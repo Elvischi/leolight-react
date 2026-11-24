@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { FaArrowLeftLong } from "react-icons/fa6";
-import Pan1 from "./image/pan1.jpeg";
+// import Pan1 from "./image/pan1.jpeg";
 import Pan2 from "./image/pan2.jpeg";
 import Pan3 from "./image/pan3.jpeg";
 import Pan4 from "./image/pan4.jpeg";
