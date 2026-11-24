@@ -4,14 +4,14 @@ import Profile from './image/profile.jpeg'
 
 export default function About() {
   return (
-    <div className='bg-white'>
+    <div className='bg-white text-black'>
       <section
         id="about"
         className="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-5 gap-16"
       >
         <div className="md:col-span-3">
           <Label>About</Label>
-          <h2 className="text-4xl font-extrabold">
+          <h2 className="text-4xl text-black font-extrabold">
             Engineering that follows the sun.
           </h2>
           <p className="mt-6 text-muted">
@@ -28,7 +28,7 @@ export default function About() {
           <h3 className="font-semibold mt-10 mb-4">Core Competencies</h3>
           <ul className="grid sm:grid-cols-2 gap-3">
             {SKILLS.map((s) => (
-              <li key={s} className="flex items-center gap-3 text-sm">
+              <li key={s} className="flex items-center gap-3 text-sm text-black">
                 <span className="w-1.5 h-1.5 rounded-full bg-accent" />
                 {s}
               </li>
