@@ -8,7 +8,7 @@ export default function Practice() {
       <section className="max-w-6xl mx-auto px-6 py-28 grid md:grid-cols-2 gap-16 items-center ">
         <div>
           <Label>About the practice</Label>
-          <h2 className="text-4xl md:text-5xl font-extrabold leading-tight">
+          <h2 className="text-4xl md:text-5xl text-black font-extrabold leading-tight">
             Experts in solar energy systems.
           </h2>
           <p className="mt-6 text-muted">
