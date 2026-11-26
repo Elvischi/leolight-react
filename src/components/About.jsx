@@ -15,7 +15,7 @@ export default function About() {
             Engineering that follows the sun.
           </h2>
           <p className="mt-6 text-muted">
-            I am a Solar Engineer with 5+ years of experience designing and
+            I am a Solar Engineer with 6+ years of experience designing and
             installing PV systems for residential, commercial, institutional,
             and public projects.
           </p>

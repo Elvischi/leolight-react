@@ -10,18 +10,12 @@ import Inverter from "./image/inverter.jpeg";
 
 // ─── Edit your projects here ────────────────────────────────────────────────
 const PROJECTS = [
-  { title: 'Rooftop PV Estate', category: 'Residential', size: '12 kWp', location: 'Lagos', year: '2025', image: Pan5,
-    description: 'Grid-tied rooftop array with hybrid inverter for a family estate, cutting generator use to near zero.' },
-  { title: 'Commercial Rooftop Array', category: 'Commercial', size: '250 kWp', location: 'Abuja', year: '2025', image: Pan2,
-    description: 'Warehouse rooftop system sized to the daytime load, with monitoring and remote fault alerts.' },
-  { title: 'Clinic Off-Grid Microgrid', category: 'Institutional', size: '40 kWp + storage', location: 'Kaduna', year: '2024', image: Pan3,
-    description: 'Solar and battery microgrid keeping a rural clinic and its vaccine cold room running around the clock.' },
-  { title: 'Solar Street Lighting', category: 'Public', size: '120 poles', location: 'Enugu', year: '2024', image: Pan4,
-    description: 'Stand-alone solar poles with automatic dusk-to-dawn control along a main community road.' },
-  { title: 'Hybrid Inverter & Battery', category: 'Residential', size: '10 kWh', location: 'Port Harcourt', year: '2024', image: Inverter,
-    description: 'Battery backup retrofit for an existing home system, with load prioritisation for essentials.' },
-  { title: 'Solar Water Pumping', category: 'Agricultural', size: '5 HP', location: 'Kano', year: '2023', image: Pan6,
-    description: 'Direct-drive solar pump for irrigation, with no fuel costs and very little maintenance.' },
+  { title: 'Rooftop PV Estate', category: 'Residential', size: '12 kWp', location: 'Lagos', year: '2025', image: Pan5 },
+  { title: 'Commercial Rooftop Array', category: 'Commercial', size: '250 kWp', location: 'Abuja', year: '2025', image: Pan2},
+  { title: 'Clinic Off-Grid Microgrid', category: 'Institutional', size: '40 kWp + storage', location: 'Kaduna', year: '2024', image: Pan3 },
+  { title: 'Solar Street Lighting', category: 'Public', size: '120 poles', location: 'Enugu', year: '2024', image: Pan4 },
+  { title: 'Hybrid Inverter & Battery', category: 'Residential', size: '10 kWh', location: 'Port Harcourt', year: '2024', image: Inverter },
+  { title: 'Solar Water Pumping', category: 'Agricultural', size: '5 HP', location: 'Kano', year: '2023', image: Pan6 },
 ]
 
 const CATEGORIES = ['All', ...new Set(PROJECTS.map((p) => p.category))]
